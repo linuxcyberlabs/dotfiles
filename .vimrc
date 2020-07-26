@@ -14,7 +14,7 @@ syntax on
 set tabstop=4
 set noerrorbells
 set smartindent
-set nu
+set rnu
 set smartcase
 set noswapfile
 set undodir=~/.vim/undodir
