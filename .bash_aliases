@@ -46,6 +46,11 @@ alias wp="cd /home/alanj/wp/"
 alias my="cd /home/alanj/myfiles/"
 alias myg="cd /home/alanj/myfiles/pgms/"
 
+mkcdir(){
+                mkdir -p -- "$1" $$
+                cd -P -- "$1"
+}
+
 #./slowcat.pl $(/usr/bin/ls | grep .vt | shuf -n 1)
 
 #colorscript random
